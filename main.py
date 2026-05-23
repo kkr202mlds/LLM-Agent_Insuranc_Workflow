@@ -1,4 +1,4 @@
-```python
+#python
 from workflow import insurance_workflow
 from state import InsuranceState
 
@@ -26,4 +26,3 @@ if __name__ == "__main__":
         if user_input.lower() in ["quit", "exit"]:
             break
         run_insurance_agent(user_input)
-```
