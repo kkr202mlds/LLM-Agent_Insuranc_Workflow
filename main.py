@@ -1,4 +1,5 @@
-#python
+# Entry point: CLI or interactive demo
+
 from workflow import insurance_workflow
 from state import InsuranceState
 
