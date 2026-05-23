@@ -26,3 +26,20 @@ insurance_llm_agents/
 ├── workflow.py             # LangGraph workflow assembly
 └── README.md
 ```
+
+### How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the demo:
+   ```bash
+   python main.py
+   ```
+3. Try sample inputs:
+   · My car got damaged in an accident, policy POL-1234, damage $4500
+   · I want a new auto insurance policy for age 22 credit score 650 2 claims
+   · Onboard new customer for auto insurance
+   · Process a claim_form document
+   · (Anything else will end without agent)
